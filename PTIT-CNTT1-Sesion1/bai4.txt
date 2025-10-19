@@ -1,0 +1,17 @@
+1. Planning (Lập kế hoạch):
+Xác định mục tiêu của dự án, phạm vi chức năng (điểm danh, quản lý sinh viên, xem báo cáo), nguồn lực cần thiết, chi phí, thời gian và rủi ro. Lập kế hoạch tổng thể cho toàn bộ quá trình phát triển.
+
+2. Analysis (Phân tích yêu cầu):
+Thu thập và phân tích yêu cầu từ ban giám hiệu, giảng viên và sinh viên. Xác định các chức năng chính như đăng nhập, quét mã QR, lưu thông tin điểm danh, tạo báo cáo chuyên cần. Xây dựng tài liệu đặc tả yêu cầu (SRS).
+
+3. Design (Thiết kế hệ thống):
+Thiết kế giao diện ứng dụng (UI/UX), cấu trúc cơ sở dữ liệu (bảng sinh viên, lớp học, lịch học, điểm danh), và kiến trúc hệ thống (client–server, API). Chuẩn bị sơ đồ luồng dữ liệu và sơ đồ quan hệ giữa các bảng.
+
+4. Implementation (Triển khai lập trình):
+Lập trình các module chức năng: đăng nhập, quét mã QR, ghi nhận điểm danh, xem danh sách sinh viên, và xuất báo cáo. Tích hợp giữa frontend, backend và cơ sở dữ liệu.
+
+5. Testing (Kiểm thử):
+Thực hiện kiểm thử đơn vị, kiểm thử tích hợp và kiểm thử hệ thống. Đảm bảo các chức năng hoạt động đúng, không lỗi, dữ liệu được lưu chính xác và giao diện thân thiện. Tiếp nhận phản hồi và sửa lỗi.
+
+6. Deployment & Maintenance (Triển khai và bảo trì):
+Triển khai ứng dụng lên hệ thống của trường (server hoặc app store). Hướng dẫn giảng viên và sinh viên sử dụng. Thực hiện bảo trì định kỳ, cập nhật phiên bản mới, vá lỗi và cải tiến theo phản hồi người dùng.

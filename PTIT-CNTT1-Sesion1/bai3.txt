@@ -1,0 +1,21 @@
+Thành phần và mô tả của hệ thống đặt món ăn online (như GrabFood):
+
+1 Con người:
+Bao gồm khách hàng (người đặt món), chủ cửa hàng/nhà hàng (người nhận và chuẩn bị món),
+tài xế giao hàng, và nhân viên quản trị hệ thống. Mỗi nhóm người có vai trò khác nhau trong quy trình như đặt món, xác nhận đơn, giao hàng và quản lý dữ liệu.
+
+2 Dữ liệu:
+Gồm thông tin người dùng, nhà hàng, thực đơn, giá món, đơn hàng, vị trí giao hàng, thanh toán và đánh giá.
+Dữ liệu này được lưu trữ trong cơ sở dữ liệu và cập nhật theo thời gian thực để đảm bảo tính chính xác và kịp thời.
+
+3 Quy trình:
+Là chuỗi các bước xử lý nghiệp vụ của hệ thống:
+người dùng đăng nhập → chọn món → đặt hàng → nhà hàng xác nhận → tài xế nhận đơn → giao hàng → người dùng thanh toán và đánh giá. Hệ thống tự động điều phối luồng xử lý giữa các bên.
+
+4 Phần mềm:
+Bao gồm ứng dụng di động và website đặt món cho khách hàng, ứng dụng quản lý đơn hàng cho nhà hàng và tài xế,
+cùng hệ thống máy chủ (backend) để xử lý giao dịch, lưu trữ dữ liệu và điều phối đơn hàng.
+
+5 Phần cứng:
+Gồm máy chủ (server) để lưu trữ và xử lý dữ liệu, thiết bị mạng,
+điện thoại thông minh và máy tính của khách hàng, nhà hàng, tài xế, cùng các thiết bị định vị GPS dùng để theo dõi vị trí giao hàng theo thời gian thực.

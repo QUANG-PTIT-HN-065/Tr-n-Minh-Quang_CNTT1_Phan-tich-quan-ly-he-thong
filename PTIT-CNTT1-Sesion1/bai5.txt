@@ -1,0 +1,61 @@
+1. Planning (Lập kế hoạch)
+
+Mục tiêu: Xây dựng hệ thống giúp tự động hóa việc điểm danh sinh viên bằng mã QR, giảm sai sót và tiết kiệm thời gian cho giảng viên.
+
+Phạm vi dự án:
+
+Giảng viên có thể tạo buổi học, sinh mã QR cho từng buổi.
+
+Sinh viên dùng ứng dụng để quét mã và điểm danh.
+
+Phòng đào tạo theo dõi báo cáo, tỷ lệ chuyên cần.
+
+Nguồn lực: Nhóm phát triển phần mềm, chuyên viên IT của trường, hạ tầng máy chủ và thiết bị di động.
+
+Thời gian & rủi ro: Lên kế hoạch tiến độ theo giai đoạn (phân tích – thiết kế – phát triển – kiểm thử – triển khai), đánh giá rủi ro như lỗi QR, trùng mã, kết nối mạng yếu.
+
+2. Requirement Analysis (Phân tích yêu cầu)
+
+Thu thập yêu cầu: Làm việc với giảng viên, sinh viên và phòng đào tạo để hiểu nhu cầu thực tế.
+
+Yêu cầu chức năng chính:
+
+Giảng viên: tạo lớp học, buổi học, sinh mã QR, xem danh sách sinh viên điểm danh.
+
+Sinh viên: đăng nhập, quét mã QR, xác nhận điểm danh thành công.
+
+Phòng đào tạo: xem báo cáo tổng hợp theo lớp, theo học kỳ, xuất file thống kê.
+
+Yêu cầu phi chức năng:
+
+Bảo mật thông tin người dùng.
+
+Giao diện thân thiện, dễ sử dụng.
+
+Hoạt động ổn định trên các thiết bị di động.
+
+Sản phẩm đầu ra: Tài liệu Đặc tả yêu cầu phần mềm (SRS) mô tả chi tiết các chức năng và ràng buộc hệ thống.
+
+3. System Design (Thiết kế hệ thống)
+
+Thiết kế tổng thể:
+
+Kiến trúc client–server gồm ứng dụng mobile (Android/iOS) cho sinh viên và giảng viên, cùng hệ thống web quản trị cho phòng đào tạo.
+
+Cơ sở dữ liệu lưu thông tin sinh viên, lớp học, buổi học, mã QR, và lịch sử điểm danh.
+
+Thiết kế chi tiết:
+
+Giao diện: Màn hình đăng nhập, danh sách lớp, buổi học, quét mã QR, báo cáo.
+
+Cơ sở dữ liệu: Các bảng chính gồm SinhVien, GiangVien, LopHoc, BuoiHoc, DiemDanh.
+
+Bảo mật: Mã hóa dữ liệu truyền qua mạng, xác thực người dùng qua tài khoản trường.
+
+Sơ đồ UML sử dụng:
+
+Use Case Diagram (Sơ đồ ca sử dụng): mô tả các vai trò (Giảng viên, Sinh viên, Phòng đào tạo) và chức năng tương ứng.
+
+Class Diagram (Sơ đồ lớp): biểu diễn cấu trúc dữ liệu (các lớp SinhVien, LopHoc, BuoiHoc, QRCode...).
+
+Activity Diagram (Sơ đồ hoạt động): mô tả quy trình điểm danh từ lúc giảng viên tạo buổi học đến khi sinh viên quét mã và xác nhận.

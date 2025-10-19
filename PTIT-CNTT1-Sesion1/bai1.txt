@@ -1,0 +1,14 @@
+1-Giao dịch bán hàng:
+→ Thuộc loại TPS (Transaction Processing System) – Hệ thống xử lý giao dịch.
+Hệ thống này dùng để ghi nhận, xử lý và lưu trữ các hoạt động bán hàng hằng ngày như lập hóa đơn, thanh toán, cập nhật kho hàng,
+theo dõi đơn hàng và doanh thu. TPS giúp đảm bảo mọi giao dịch được thực hiện chính xác, nhanh chóng và an toàn.
+
+2-Phân tích xu hướng kinh doanh:
+→ Thuộc loại DSS (Decision Support System) – Hệ thống hỗ trợ ra quyết định.
+DSS được sử dụng để phân tích dữ liệu từ hệ thống giao dịch, xác định xu hướng mua hàng, sản phẩm bán chạy,
+mùa vụ kinh doanh và dự báo doanh số trong tương lai. Hệ thống này giúp nhà quản lý có cơ sở đưa ra các quyết định chiến lược như điều chỉnh giá, kế hoạch nhập hàng hay chiến dịch marketing.
+
+3-Bảng tổng quan hiệu suất hàng tháng dành cho CEO:
+→ Thuộc loại EIS (Executive Information System) – Hệ thống thông tin điều hành.
+EIS cung cấp cho lãnh đạo cấp cao các báo cáo tổng hợp, biểu đồ hiệu suất, KPI và các chỉ số quan trọng của doanh nghiệp.
+Hệ thống này giúp CEO nắm bắt nhanh tình hình hoạt động tổng thể, so sánh kết quả giữa các tháng, và đưa ra quyết định quản trị chiến lược kịp thời.

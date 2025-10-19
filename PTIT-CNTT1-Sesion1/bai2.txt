@@ -1,0 +1,11 @@
+A – Phần mềm quản lý điểm cho trường cấp 2
+→ Mô hình: Waterfall
+→ Lý do: Yêu cầu rõ ràng, ít thay đổi, phù hợp quy trình tuyến tính, dễ kiểm soát tiến độ và chi phí.
+
+B – Ứng dụng mobile đặt lịch khám bệnh
+→ Mô hình: Agile
+→ Lý do: Yêu cầu linh hoạt, có thể thay đổi, cần phản hồi người dùng liên tục, phát triển theo sprint.
+
+C – Hệ thống ngân hàng điện tử
+→ Mô hình: Spiral
+→ Lý do: Phức tạp, yêu cầu bảo mật cao, cần đánh giá rủi ro nhiều vòng, kết hợp ưu điểm của Waterfall và Prototyping.

@@ -1,0 +1,56 @@
+Dự án: Hệ thống hỗ trợ đăng ký tiêm chủng online cho trung tâm y tế
+
+------------------------------------------------------------
+1. Planning (Lập kế hoạch)
+------------------------------------------------------------
+- Xác định mục tiêu: Xây dựng hệ thống giúp người dân đăng ký tiêm chủng trực tuyến, giảm tải cho trung tâm y tế.  
+- Phạm vi: Đăng ký tiêm, xác nhận lịch tiêm, quản lý danh sách đã tiêm/chưa tiêm, gửi thông báo lịch hẹn.  
+- Xác định nguồn lực: Nhóm phát triển phần mềm, máy chủ, ngân sách, thời gian thực hiện.  
+- Lên kế hoạch tiến độ, xác định rủi ro (quá tải hệ thống, lỗi xác nhận dữ liệu...).
+
+------------------------------------------------------------
+2. Requirement Analysis (Phân tích yêu cầu)
+------------------------------------------------------------
+- Thu thập yêu cầu từ trung tâm y tế và người dân.  
+- Yêu cầu chức năng:
+  + Người dân đăng ký thông tin cá nhân, chọn loại vắc-xin, chọn thời gian mong muốn.
+  + Trung tâm xác nhận thông tin, sắp lịch tiêm.
+  + Quản lý danh sách người đã/đang/chưa tiêm.
+- Yêu cầu phi chức năng:
+  + Bảo mật thông tin cá nhân.
+  + Giao diện dễ sử dụng, thân thiện.
+  + Hệ thống hoạt động ổn định khi có nhiều người truy cập.
+- Kết quả: Tạo tài liệu đặc tả yêu cầu phần mềm (SRS).
+
+------------------------------------------------------------
+3. System Design (Thiết kế hệ thống)
+------------------------------------------------------------
+- Thiết kế kiến trúc hệ thống client–server.  
+- Thiết kế cơ sở dữ liệu:
+  + Các bảng: NguoiDan, DangKyTiem, LichTiem, TrangThaiTiem, NhanVienYTe.
+- Thiết kế giao diện:
+  + Trang đăng ký, trang xác nhận lịch, trang quản lý danh sách tiêm.
+- Bảo mật: Xác thực người dùng, mã hóa dữ liệu cá nhân.
+- Thiết kế sơ đồ UML: Use Case Diagram, Class Diagram, Activity Diagram.
+
+------------------------------------------------------------
+4. Implementation (Triển khai lập trình)
+------------------------------------------------------------
+- Phát triển các module: Đăng ký tiêm, xác nhận lịch, quản lý danh sách, gửi thông báo SMS/email.
+- Lập trình giao diện web/app cho người dân và giao diện quản trị cho trung tâm.
+- Kết nối frontend – backend – cơ sở dữ liệu.
+
+------------------------------------------------------------
+5. Testing (Kiểm thử)
+------------------------------------------------------------
+- Kiểm thử đơn vị (Unit Test) cho từng chức năng.
+- Kiểm thử tích hợp giữa các module.
+- Kiểm thử hệ thống tổng thể để đảm bảo đúng yêu cầu và dữ liệu chính xác.
+- Kiểm thử tải (Load Test) để đảm bảo hệ thống chịu được lượng truy cập cao.
+
+------------------------------------------------------------
+6. Deployment & Maintenance (Triển khai và bảo trì)
+------------------------------------------------------------
+- Triển khai hệ thống lên máy chủ trung tâm y tế.
+- Hướng dẫn sử dụng cho cán bộ y tế và người dùng.
+- Theo dõi, bảo trì định kỳ, sửa lỗi phát sinh, cập nhật thêm chức năng mới (ví dụ: đăng ký tiêm nhắc lại, chứng nhận điện tử).

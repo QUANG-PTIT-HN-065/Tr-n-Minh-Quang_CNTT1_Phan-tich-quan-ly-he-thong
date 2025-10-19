@@ -1,0 +1,49 @@
+Dự án: Nền tảng học trực tuyến cho trung tâm ngoại ngữ
+
+------------------------------------------------------------
+1. Xác định các tác nhân chính và chức năng tương ứng
+------------------------------------------------------------
+* Tác nhân: Học viên
+  - Đăng ký tài khoản và khóa học
+  - Tham gia học trực tuyến (xem bài giảng, làm bài tập, nộp bài)
+  - Xem điểm và tiến độ học tập
+
+* Tác nhân: Giảng viên
+  - Tạo và quản lý khóa học, bài học
+  - Chấm điểm và nhận xét bài làm của học viên
+  - Theo dõi danh sách học viên trong lớp
+
+* Tác nhân: Quản trị viên (Admin)
+  - Quản lý người dùng (phân quyền học viên, giảng viên)
+  - Theo dõi thống kê, báo cáo kết quả học tập
+  - Giám sát hệ thống và sao lưu dữ liệu
+
+------------------------------------------------------------
+2. Phân loại hệ thống thông tin phù hợp
+------------------------------------------------------------
+- Hệ thống thuộc loại: MIS (Management Information System)
+  Giải thích:
+  + Hệ thống không chỉ xử lý giao dịch cơ bản như đăng ký, học tập (TPS),
+    mà còn tổng hợp và báo cáo dữ liệu cho ban quản lý để ra quyết định.
+  + MIS phù hợp vì có chức năng giám sát, thống kê, báo cáo tiến độ,
+    phục vụ cho việc quản lý và ra quyết định chiến lược trong trung tâm.
+
+------------------------------------------------------------
+3. Mô hình phát triển phần mềm đề xuất
+------------------------------------------------------------
+- Mô hình phù hợp: Agile (Scrum)
+  Giải thích:
+  + Dự án cần phản hồi liên tục từ người dùng (học viên, giảng viên).
+  + Các chức năng có thể chia nhỏ và phát triển theo từng Sprint.
+  + Dễ dàng điều chỉnh khi có thay đổi yêu cầu trong quá trình triển khai.
+  + Giúp đội phát triển và trung tâm tương tác thường xuyên để cải tiến sản phẩm.
+
+------------------------------------------------------------
+4. Ba sơ đồ UML sử dụng khi thiết kế hệ thống
+------------------------------------------------------------
+1. Use Case Diagram:
+   - Mô tả các chức năng chính mà từng tác nhân (Học viên, Giảng viên, Admin) có thể thực hiện.
+2. Class Diagram:
+   - Mô tả các lớp trong hệ thống như HocVien, GiangVien, KhoaHoc, BaiHoc, Diem, và mối quan hệ giữa chúng.
+3. Sequence Diagram:
+   - Mô tả thứ tự tương tác giữa các đối tượng (ví dụ: học viên đăng ký khóa học, hệ thống xác nhận, giảng viên phê duyệt).
