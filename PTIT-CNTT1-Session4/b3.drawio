@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Class User Table" id="_HtoxMfRIZszYQ_CMSxx">
+    <mxGraphModel dx="1097" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-91" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="131" y="276" width="588" height="421.1055458470396" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-92" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-91">
+          <mxGeometry width="588" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-93" value="&lt;b&gt;Thành phần&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-92">
+          <mxGeometry width="196" height="40" as="geometry">
+            <mxRectangle width="196" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-94" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th data-col-size=&quot;sm&quot; data-end=&quot;102&quot; data-start=&quot;80&quot;&gt;&lt;strong data-end=&quot;96&quot; data-start=&quot;82&quot;&gt;&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th data-col-size=&quot;sm&quot; data-end=&quot;136&quot; data-start=&quot;102&quot;&gt;&lt;strong data-end=&quot;135&quot; data-start=&quot;104&quot;&gt;Modifier (Phạm vi truy cập)&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-92">
+          <mxGeometry x="196" width="196" height="40" as="geometry">
+            <mxRectangle width="196" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-95" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th data-col-size=&quot;sm&quot; data-end=&quot;136&quot; data-start=&quot;102&quot;&gt;&lt;strong data-end=&quot;135&quot; data-start=&quot;104&quot;&gt;&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th data-col-size=&quot;md&quot; data-end=&quot;154&quot; data-start=&quot;136&quot;&gt;&lt;strong data-end=&quot;152&quot; data-start=&quot;138&quot;&gt;Giải thích&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-92">
+          <mxGeometry x="392" width="196" height="40" as="geometry">
+            <mxRectangle width="196" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-96" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-91">
+          <mxGeometry y="40" width="588" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-97" value="username" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-96">
+          <mxGeometry width="196" height="78" as="geometry">
+            <mxRectangle width="196" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-98" value="private" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-96">
+          <mxGeometry x="196" width="196" height="78" as="geometry">
+            <mxRectangle width="196" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-99" value="&#xa;Tránh bị thay đổi trực tiếp từ bên ngoài, đảm bảo tính toàn vẹn dữ liệu tài khoản&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-96">
+          <mxGeometry x="392" width="196" height="78" as="geometry">
+            <mxRectangle width="196" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-100" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-91">
+          <mxGeometry y="118" width="588" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-101" value="password" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-100">
+          <mxGeometry width="196" height="59" as="geometry">
+            <mxRectangle width="196" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-102" value="private" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-100">
+          <mxGeometry x="196" width="196" height="59" as="geometry">
+            <mxRectangle width="196" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-103" value="Bảo mật tuyệt đối, không cho phép truy cập trực tiếp để tránh lộ mật khẩu" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-100">
+          <mxGeometry x="392" width="196" height="59" as="geometry">
+            <mxRectangle width="196" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-104" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-91">
+          <mxGeometry y="177" width="588" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-105" value="lastLoginTime" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-104">
+          <mxGeometry width="196" height="89" as="geometry">
+            <mxRectangle width="196" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-106" value="&#xa;private&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-104">
+          <mxGeometry x="196" width="196" height="89" as="geometry">
+            <mxRectangle width="196" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-107" value="Chỉ hệ thống cập nhật khi người dùng đăng nhập, không nên cho phép sửa từ bên ngoài" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-104">
+          <mxGeometry x="392" width="196" height="89" as="geometry">
+            <mxRectangle width="196" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-108" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-91">
+          <mxGeometry y="266" width="588" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-109" value="login()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-108">
+          <mxGeometry width="196" height="71" as="geometry">
+            <mxRectangle width="196" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-110" value="public" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-108">
+          <mxGeometry x="196" width="196" height="71" as="geometry">
+            <mxRectangle width="196" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-111" value="&#xa;Phương thức đăng nhập được sử dụng từ các thành phần khác của hệ thống&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-108">
+          <mxGeometry x="392" width="196" height="71" as="geometry">
+            <mxRectangle width="196" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-112" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-91">
+          <mxGeometry y="337" width="588" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-113" value="resetPassword()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-112">
+          <mxGeometry width="196" height="84" as="geometry">
+            <mxRectangle width="196" height="84" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-114" value="public" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-112">
+          <mxGeometry x="196" width="196" height="84" as="geometry">
+            <mxRectangle width="196" height="84" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8B_V1KtsmMNhDRG_iez-115" value="&#xa;Cho phép đổi mật khẩu khi cần thiết, được gọi từ bên ngoài hệ thống&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="L8B_V1KtsmMNhDRG_iez-112">
+          <mxGeometry x="392" width="196" height="84" as="geometry">
+            <mxRectangle width="196" height="84" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

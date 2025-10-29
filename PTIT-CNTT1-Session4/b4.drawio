@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Class Diagram" id="oUlpMPOh6Oao7vGlobnU">
+    <mxGraphModel dx="1042" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RaUuJElfnf9nrEy152N1-1" value="Product&#xa;----------------&#xa;- productId&#xa;- name&#xa;- price&#xa;- quantity&#xa;----------------&#xa;+ updateStock()&#xa;+ showInfo()" style="rounded=0;whiteSpace=wrap;html=1;childLayout=stackLayout;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="59" y="493" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RaUuJElfnf9nrEy152N1-2" value="Order&#xa;----------------&#xa;- orderId&#xa;- orderDate&#xa;- totalAmount&#xa;----------------&#xa;+ addProduct()&#xa;+ removeProduct()&#xa;+ calculateTotal()" style="rounded=0;whiteSpace=wrap;html=1;childLayout=stackLayout;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="349" y="483" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RaUuJElfnf9nrEy152N1-3" value="Customer&#xa;----------------&#xa;- customerId&#xa;- fullName&#xa;- address&#xa;- phoneNumber&#xa;----------------&#xa;+ placeOrder()&#xa;+ showInfo()" style="rounded=0;whiteSpace=wrap;html=1;childLayout=stackLayout;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="634" y="483" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RaUuJElfnf9nrEy152N1-4" style="endArrow=none;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="RaUuJElfnf9nrEy152N1-1" target="RaUuJElfnf9nrEy152N1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaUuJElfnf9nrEy152N1-5" style="endArrow=none;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="RaUuJElfnf9nrEy152N1-3" target="RaUuJElfnf9nrEy152N1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

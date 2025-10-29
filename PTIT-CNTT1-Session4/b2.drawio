@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Trang-1" id="AGZBZZ7HXYse5nwpsNNJ">
+    <mxGraphModel dx="1042" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-2" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="730" height="375" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Qr22bEbB7Wb3nGtfKpE2-2" vertex="1">
+          <mxGeometry width="730" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-4" value="&lt;table class=&quot;w-fit min-w-(--thread-content-width)&quot; data-end=&quot;1122&quot; data-start=&quot;142&quot;&gt;&lt;thead data-end=&quot;215&quot; data-start=&quot;142&quot;&gt;&lt;tr data-end=&quot;215&quot; data-start=&quot;142&quot;&gt;&lt;th data-col-size=&quot;md&quot; data-end=&quot;160&quot; data-start=&quot;142&quot;&gt;&lt;strong data-end=&quot;159&quot; data-start=&quot;144&quot;&gt;Mối quan hệ&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-3" vertex="1">
+          <mxGeometry width="145" height="88" as="geometry">
+            <mxRectangle width="145" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-5" value="&lt;b&gt;Loại quan hệ&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-3" vertex="1">
+          <mxGeometry x="145" width="160" height="88" as="geometry">
+            <mxRectangle width="160" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-6" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th data-col-size=&quot;sm&quot; data-end=&quot;179&quot; data-start=&quot;160&quot;&gt;&lt;strong data-end=&quot;178&quot; data-start=&quot;162&quot;&gt;&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th data-col-size=&quot;lg&quot; data-end=&quot;196&quot; data-start=&quot;179&quot;&gt;&lt;strong data-end=&quot;195&quot; data-start=&quot;181&quot;&gt;Giải thích&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-3" vertex="1">
+          <mxGeometry x="305" width="205" height="88" as="geometry">
+            <mxRectangle width="205" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-7" value="&lt;b&gt;&lt;br&gt;Ký hiệu UML&lt;br&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-3" vertex="1">
+          <mxGeometry x="510" width="220" height="88" as="geometry">
+            <mxRectangle width="220" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Qr22bEbB7Wb3nGtfKpE2-2" vertex="1">
+          <mxGeometry y="88" width="730" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-9" value="Một &lt;strong data-end=&quot;311&quot; data-start=&quot;298&quot;&gt;giáo viên&lt;/strong&gt; giảng dạy &lt;strong data-end=&quot;339&quot; data-start=&quot;322&quot;&gt;nhiều lớp học&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-8" vertex="1">
+          <mxGeometry width="145" height="112" as="geometry">
+            <mxRectangle width="145" height="112" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-10" value="Association (Liên kết)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-8" vertex="1">
+          <mxGeometry x="145" width="160" height="112" as="geometry">
+            <mxRectangle width="160" height="112" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-11" value="Quan hệ mang tính logic: giáo viên có thể dạy nhiều lớp, và lớp học cũng có thể do nhiều giáo viên khác nhau giảng dạy (tuỳ trường hợp). Cả hai tồn tại độc lập." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-8" vertex="1">
+          <mxGeometry x="305" width="205" height="112" as="geometry">
+            <mxRectangle width="205" height="112" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-12" value="Đường nối bình thường giữa 2 lớp, có thể ghi &lt;code data-end=&quot;585&quot; data-start=&quot;579&quot;&gt;1..*&lt;/code&gt; hoặc &lt;code data-end=&quot;597&quot; data-start=&quot;591&quot;&gt;*..*&lt;/code&gt; để thể hiện bội số." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-8" vertex="1">
+          <mxGeometry x="510" width="220" height="112" as="geometry">
+            <mxRectangle width="220" height="112" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Qr22bEbB7Wb3nGtfKpE2-2" vertex="1">
+          <mxGeometry y="200" width="730" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-14" value="Một &lt;strong data-end=&quot;638&quot; data-start=&quot;626&quot;&gt;đơn hàng&lt;/strong&gt; gồm &lt;strong data-end=&quot;661&quot; data-start=&quot;643&quot;&gt;nhiều sản phẩm&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-13" vertex="1">
+          <mxGeometry width="145" height="88" as="geometry">
+            <mxRectangle width="145" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-15" value="Aggregation (Tập hợp)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-13" vertex="1">
+          <mxGeometry x="145" width="160" height="88" as="geometry">
+            <mxRectangle width="160" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-16" value="Sản phẩm thuộc về đơn hàng nhưng &lt;strong data-end=&quot;757&quot; data-start=&quot;725&quot;&gt;sản phẩm vẫn tồn tại độc lập&lt;/strong&gt; (sản phẩm có thể nằm trong nhiều đơn hàng khác nhau)." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-13" vertex="1">
+          <mxGeometry x="305" width="205" height="88" as="geometry">
+            <mxRectangle width="205" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-17" value="Đường nối có &lt;strong data-end=&quot;849&quot; data-start=&quot;827&quot;&gt;hình thoi rỗng (◊)&lt;/strong&gt; tại phía “Đơn hàng”." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-13" vertex="1">
+          <mxGeometry x="510" width="220" height="88" as="geometry">
+            <mxRectangle width="220" height="88" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Qr22bEbB7Wb3nGtfKpE2-2" vertex="1">
+          <mxGeometry y="288" width="730" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-19" value="Một &lt;strong data-end=&quot;889&quot; data-start=&quot;879&quot;&gt;cơ thể&lt;/strong&gt; gồm &lt;strong data-end=&quot;930&quot; data-start=&quot;894&quot;&gt;nhiều bộ phận không thể tách rời&lt;/strong&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-18" vertex="1">
+          <mxGeometry width="145" height="87" as="geometry">
+            <mxRectangle width="145" height="87" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-20" value="Composition (Thành phần)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-18" vertex="1">
+          <mxGeometry x="145" width="160" height="87" as="geometry">
+            <mxRectangle width="160" height="87" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-21" value="Các bộ phận là &lt;strong data-end=&quot;1000&quot; data-start=&quot;979&quot;&gt;một phần bắt buộc&lt;/strong&gt; của cơ thể — khi cơ thể bị hủy, các bộ phận cũng không tồn tại." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-18" vertex="1">
+          <mxGeometry x="305" width="205" height="87" as="geometry">
+            <mxRectangle width="205" height="87" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr22bEbB7Wb3nGtfKpE2-22" value="Đường nối có &lt;strong data-end=&quot;1101&quot; data-start=&quot;1080&quot;&gt;hình thoi đặc (◆)&lt;/strong&gt; tại phía “Cơ thể”." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="Qr22bEbB7Wb3nGtfKpE2-18" vertex="1">
+          <mxGeometry x="510" width="220" height="87" as="geometry">
+            <mxRectangle width="220" height="87" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
