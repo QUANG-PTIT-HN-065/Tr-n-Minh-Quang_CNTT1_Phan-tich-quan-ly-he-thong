@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Sequence Components" id="xtxYMDdQZ7gaXDhBwvJm">
+    <mxGraphModel dx="1042" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="019COx0MYpLDITimTAGP-7" value="Thành phần" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="12" y="316" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-8" value="Vai trò" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="192" y="316" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-9" value="Mô tả chi tiết" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="442" y="316" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-10" value="Khách hàng" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="12" y="356" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-11" value="Người khởi tạo và tương tác chính với hệ thống" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="192" y="356" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-12" value="Là người dùng cuối thực hiện các hành động như chọn sản phẩm, đặt hàng và thanh toán. Gửi yêu cầu tới Website và nhận phản hồi kết quả từ hệ thống." style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="442" y="356" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-13" value="Website" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="12" y="436" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-14" value="Giao diện trung gian giữa khách hàng và hệ thống thanh toán" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="192" y="436" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-15" value="Tiếp nhận yêu cầu từ khách hàng, gửi thông tin thanh toán tới hệ thống thanh toán và trả về kết quả cho khách hàng. Có thể gửi thông báo email hoặc hiển thị thông báo trực tiếp." style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="442" y="436" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-16" value="Hệ thống thanh toán" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="12" y="516" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-17" value="Xử lý giao dịch thanh toán điện tử" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="192" y="516" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="019COx0MYpLDITimTAGP-18" value="Kiểm tra thông tin thẻ, xác thực giao dịch, gửi kết quả (thành công/thất bại) về cho Website và đảm bảo an toàn bảo mật trong quá trình thanh toán." style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="442" y="516" width="400" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

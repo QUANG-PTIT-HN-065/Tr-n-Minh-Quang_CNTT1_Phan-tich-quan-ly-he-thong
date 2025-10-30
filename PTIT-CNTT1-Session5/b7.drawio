@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram id="H6QwygP26KEXXN8SD7lD" name="State Diagram - Đơn hàng online">
+    <mxGraphModel dx="1042" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="73" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-2" value="Tạo mới" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="191" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-3" value="Chờ thanh toán" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="13" y="382" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-4" value="Đang giao" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="388" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-5" value="Hoàn thành" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="679" y="388" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-6" value="Hủy" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="570" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="729" y="580" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-1" target="wH0kPsDNn7pqSObTv4JZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-9" value="Xác nhận đặt hàng" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-2" target="wH0kPsDNn7pqSObTv4JZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-10" value="Thanh toán thành công" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-3" target="wH0kPsDNn7pqSObTv4JZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-11" value="Thanh toán thất bại [Guard]" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#FF0000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-3" target="wH0kPsDNn7pqSObTv4JZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-12" value="Giao hàng thành công" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-4" target="wH0kPsDNn7pqSObTv4JZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-5" target="wH0kPsDNn7pqSObTv4JZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wH0kPsDNn7pqSObTv4JZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="wH0kPsDNn7pqSObTv4JZ-6" target="wH0kPsDNn7pqSObTv4JZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
