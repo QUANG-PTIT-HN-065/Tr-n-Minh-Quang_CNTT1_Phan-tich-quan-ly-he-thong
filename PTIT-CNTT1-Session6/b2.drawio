@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram id="yAvET5KljWdwFYE89LD3" name="Class Diagram">
+    <mxGraphModel dx="947" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-14" value="KhachHang&#xa;--------------------&#xa;- maKH : String&#xa;- tenKH : String&#xa;- email : String&#xa;- sdt : String&#xa;- diaChi : String&#xa;--------------------&#xa;+ dangNhap()&#xa;+ dangKy()&#xa;+ lienHe()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="100" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-15" value="DonHang&#xa;--------------------&#xa;- maDH : String&#xa;- ngayDat : Date&#xa;- tongTien : double&#xa;- trangThai : String&#xa;--------------------&#xa;+ taoDonHang()&#xa;+ tinhTongTien() : double&#xa;+ huyDonHang() : boolean" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="100" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-16" value="ChiTietDonHang&#xa;--------------------&#xa;- maCT : String&#xa;- soLuong : int&#xa;- donGia : double&#xa;- thanhTien : double&#xa;--------------------&#xa;+ tinhThanhTien() : double" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="124" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-17" value="SanPham&#xa;--------------------&#xa;- maSP : String&#xa;- tenSP : String&#xa;- moTa : String&#xa;- gia : double&#xa;- soLuongTon : int&#xa;--------------------&#xa;+ xemChiTiet()&#xa;+ capNhatSoLuong(qty:int)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="395" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-18" value="ThanhToan&#xa;--------------------&#xa;- maTT : String&#xa;- phuongThuc : String&#xa;- trangThai : String&#xa;- ngayTT : Date&#xa;--------------------&#xa;+ thucHienThanhToan() : boolean&#xa;+ hoanTien() : boolean" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="415" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-19" value="LienHe&#xa;--------------------&#xa;- maLH : String&#xa;- noiDung : String&#xa;- ngayGui : Date&#xa;- trangThai : String&#xa;--------------------&#xa;+ guiLienHe()&#xa;+ traLoi(noiDung:String)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="415" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-20" value="1 .. *" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6_-Wihjwbw6Xe8z0K1Zs-14" target="6_-Wihjwbw6Xe8z0K1Zs-15">
+          <mxGeometry x="0.0058" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-21" value="1 .. *" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamond;startFill=1;" edge="1" parent="1" source="6_-Wihjwbw6Xe8z0K1Zs-15" target="6_-Wihjwbw6Xe8z0K1Zs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-22" value="* .. 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6_-Wihjwbw6Xe8z0K1Zs-16" target="6_-Wihjwbw6Xe8z0K1Zs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-23" value="1 ..1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6_-Wihjwbw6Xe8z0K1Zs-15" target="6_-Wihjwbw6Xe8z0K1Zs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_-Wihjwbw6Xe8z0K1Zs-24" value="1 .. *" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6_-Wihjwbw6Xe8z0K1Zs-14" target="6_-Wihjwbw6Xe8z0K1Zs-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
