@@ -1,44 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
-  <diagram name="Sequence Components" id="xtxYMDdQZ7gaXDhBwvJm">
+  <diagram name="Trang-1" id="TEhjU343isuAvHY8LpTe">
     <mxGraphModel dx="1042" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="019COx0MYpLDITimTAGP-7" value="Thành phần" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="12" y="316" width="180" height="40" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="57" y="537" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-8" value="Vai trò" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="192" y="316" width="250" height="40" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--2" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; font-family: Arial, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Đặt chỗ&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="537" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-9" value="Mô tả chi tiết" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="442" y="316" width="400" height="40" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--3" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; font-family: Arial, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Chọn ghế&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="428" y="537" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-10" value="Khách hàng" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="12" y="356" width="180" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--4" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; font-family: Arial, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Hủy vé&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="384" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-11" value="Người khởi tạo và tương tác chính với hệ thống" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="192" y="356" width="250" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--5" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; font-family: Arial, sans-serif; font-size: 16px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Thanh toán&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="660" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-12" value="Là người dùng cuối thực hiện các hành động như chọn sản phẩm, đặt hàng và thanh toán. Gửi yêu cầu tới Website và nhận phản hồi kết quả từ hệ thống." style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="442" y="356" width="400" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--7" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfz0-JYOSltZuIxw72p--1" target="dfz0-JYOSltZuIxw72p--2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="317" y="665" as="sourcePoint" />
+            <mxPoint x="477" y="665" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-13" value="Website" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="12" y="436" width="180" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--8" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dfz0-JYOSltZuIxw72p--2" target="dfz0-JYOSltZuIxw72p--3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="317" y="665" as="sourcePoint" />
+            <mxPoint x="477" y="665" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-14" value="Giao diện trung gian giữa khách hàng và hệ thống thanh toán" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="192" y="436" width="250" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--9" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dfz0-JYOSltZuIxw72p--3" target="dfz0-JYOSltZuIxw72p--4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="317" y="665" as="sourcePoint" />
+            <mxPoint x="477" y="665" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-15" value="Tiếp nhận yêu cầu từ khách hàng, gửi thông tin thanh toán tới hệ thống thanh toán và trả về kết quả cho khách hàng. Có thể gửi thông báo email hoặc hiển thị thông báo trực tiếp." style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="442" y="436" width="400" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--11" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.042;entryY=0.37;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfz0-JYOSltZuIxw72p--3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="317" y="665" as="sourcePoint" />
+            <mxPoint x="626.04" y="693.6" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-16" value="Hệ thống thanh toán" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="12" y="516" width="180" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--12" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.258;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dfz0-JYOSltZuIxw72p--2" target="dfz0-JYOSltZuIxw72p--4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="341" y="615" as="sourcePoint" />
+            <mxPoint x="501" y="615" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-17" value="Xử lý giao dịch thanh toán điện tử" style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="192" y="516" width="250" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="019COx0MYpLDITimTAGP-18" value="Kiểm tra thông tin thẻ, xác thực giao dịch, gửi kết quả (thành công/thất bại) về cho Website và đảm bảo an toàn bảo mật trong quá trình thanh toán." style="text;html=1;strokeColor=#6c8ebf;fillColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="442" y="516" width="400" height="80" as="geometry" />
+        <mxCell id="dfz0-JYOSltZuIxw72p--13" value="&lt;table&gt;&#xa;&lt;thead&gt;&#xa;&lt;tr&gt;&#xa;&lt;th&gt;Use Case&lt;/th&gt;&#xa;&lt;th&gt;Mô tả chi tiết&lt;/th&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/thead&gt;&#xa;&lt;tbody&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Đặt chỗ (Đặt vé)&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Người dùng chọn phim, ngày, giờ chiếu, rạp, và suất chiếu mong muốn.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Chọn ghế&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Sau khi chọn suất chiếu, người dùng chọn ghế còn trống trong sơ đồ rạp.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Thanh toán&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Người dùng thực hiện thanh toán qua hệ thống thanh toán online để hoàn tất việc đặt vé.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Hủy vé&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Người dùng có thể hủy vé trong một thời gian quy định (ví dụ: trước giờ chiếu 1 giờ). Hệ thống sẽ hoàn tiền theo chính sách.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Xem thông tin phim&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Người dùng xem thông tin phim, trailer, thời lượng, thể loại, đánh giá.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;tr&gt;&#xa;&lt;td&gt;&lt;strong&gt;Nhận vé điện tử&lt;/strong&gt;&lt;/td&gt;&#xa;&lt;td&gt;Sau khi thanh toán thành công, hệ thống gửi vé điện tử qua email hoặc hiển thị mã QR.&lt;/td&gt;&#xa;&lt;/tr&gt;&#xa;&lt;/tbody&gt;&#xa;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="349" width="612" height="284" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
